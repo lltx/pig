@@ -25,5 +25,5 @@ jobs:
           distribution: 'zulu'
 
       - name: mvn clean install
-        run: mvn clean install -pl '!pig-boot' -Pcloud
+        run: mvn clean install -pl !pig-boot -Pcloud
 
